@@ -1,6 +1,7 @@
 # Write a program that checks if the sequence of characters 
 # "lab" exists in the following strings. If it does exist, print out the word.
 #  - "laboratory" - "experiment" - "Pans Labyrinth" - "elaborate" - "polar bear"
+# concidered capitalization{if you wont to ignore caps add i to /lab/ eg /lab/i}
 
 def check_in(word)
   if /lab/ =~ word
