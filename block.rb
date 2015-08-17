@@ -9,3 +9,9 @@ end
     puts "Block being called in the method! #{number}"
   end
 end
+
+
+# Here we are passing the current number of the iteration 
+#of the array into the take_block method and using it in our block.call.
+#  You can see the amount of flexibity and the myriad 
+#of possibilities that come into play when using blocks.
