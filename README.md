@@ -1,2 +1,2 @@
 # Regex
-toy proplems in ruby
+toy problems in ruby
