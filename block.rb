@@ -1,4 +1,4 @@
-# example of a hello world block
+# example of a hello world block You call the test block by using the yield statement.
 def test
   yield
 end
