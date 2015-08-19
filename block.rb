@@ -5,7 +5,7 @@ end
 test{ puts "Hello world"}
 
 
-# passing_block.rb
+# passing_block.rb if the last argument of a method is preceded by &, then use .call method
 
 def take_block(number, &block)
   block.call
