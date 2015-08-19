@@ -27,3 +27,7 @@ test {|i| puts "You are in the block #{i}"}
 You are in the block 5
 You are in the method test
 You are in the block 100
+
+# to pass more than one parameters, then the yield statement becomes:
+# yield a, b, ..
+# test {|a, b, ...| statement}
