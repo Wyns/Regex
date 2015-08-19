@@ -5,3 +5,10 @@ def test
    yield
 end
 test {puts "You are in the block"}
+
+
+0utput
+You are in the method
+You are in the block
+You are again back to the method
+You are in the block
