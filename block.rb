@@ -1,3 +1,10 @@
+# example of a hello world block
+def test
+  yield
+end
+test{ puts "Hello world"}
+
+
 # passing_block.rb
 
 def take_block(number, &block)
@@ -11,7 +18,7 @@ end
 end
 
 
-# Here we are passing the current number of the iteration 
+# Here we are passing the current number of the iteration
 #of the array into the take_block method and using it in our block.call.
-#  You can see the amount of flexibity and the myriad 
+#  You can see the amount of flexibity and the myriad
 #of possibilities that come into play when using blocks.
