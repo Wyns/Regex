@@ -21,3 +21,9 @@ def test
    yield 100
 end
 test {|i| puts "You are in the block #{i}"}
+
+# output
+
+You are in the block 5
+You are in the method test
+You are in the block 100
